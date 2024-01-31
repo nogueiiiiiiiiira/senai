@@ -1,0 +1,18 @@
+#PrimeiraDiv{
+    background-color: brown;
+}
+.PrimeiraDivClass{
+    background-color: brown;
+}
+
+.Centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.PrimeiroBotaoClass{
+    background-color: blue;
+    text-decoration-color: blanchedalmond;
+}
