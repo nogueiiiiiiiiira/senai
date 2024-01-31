@@ -18,4 +18,4 @@ live server -> atualizar a página automaticamente
 cd 
 
 // section
-serve como o <div> também, mas deixa um pouco menor o espaçamento
+serve para dividir, igual o "div", mas deixa um pouco menor o espaçamento
