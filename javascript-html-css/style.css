@@ -1,18 +1,92 @@
-#PrimeiraDiv{
-    background-color: brown;
-}
-.PrimeiraDivClass{
-    background-color: brown;
+*{
+    padding: 0;
+    margin: 0;
 }
 
-.Centralizar{
+body{
+    height: 100vh;
+    width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
-.PrimeiroBotaoClass{
-    background-color: blue;
-    text-decoration-color: blanchedalmond;
+.primeiraDivClass{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2{
+    border-bottom: 5px solid brown;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.parag{
+    padding-top: 10px;
+}
+
+.principal{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.filhas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 400px;
+    width: 200px;
+}
+
+button{
+    background-color: brown;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    opacity: 0.8;
+    transition: all 200ms linear;
+    font-size: 0.8rem;
+    color: #ffff;
+    font-weight: 900;
+}
+
+button:hover{
+    transition: all 200ms linear;
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.inputs-style{
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: lightgray;
+}
+
+.inputs-style:focus{
+    font-weight: 900;
+    border: 2px solid #3560b0;
+}
+
+p {
+    align-self: center; 
+    margin-top: auto; 
 }
