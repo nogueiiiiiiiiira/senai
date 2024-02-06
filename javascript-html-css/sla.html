@@ -9,16 +9,13 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <div id="PrimeiraDiv" class="primeiraDivClass">
-        <div class="Centralizar">
+    <div>
             <h1>Atividade 01</h1>
-        </div>
     </div>
     
     <div>
-        <p>PRIMEIRA ATIVIDADE DO SENAI HTML.</p>
+        <label>PRIMEIRA ATIVIDADE DO SENAI HTML.</label>
     </div>
-    
     <div class="principal">
         
         <div class="filhas">
@@ -28,7 +25,9 @@
             <label for="num2">Digite o segundo número:</label>
             <input class="inputs-style" type="number" id="num2" placeholder="Insira um número"/>
             <button onclick="soma()">CALCULAR</button>
-            <p>Resultado: <span id="resSoma"></span></p>
+            <p>RESULTADO: <span id="resSoma"></span></p>
+            <span id="SomP" class="condP">POSITIVO</span>
+            <span id="SomN" class="condN">NEGATIVO</span>
         </div>
         
         <div class="filhas">
@@ -38,7 +37,9 @@
             <label for="num4">Digite o segundo número:</label>
             <input class="inputs-style" type="number" id="num4" placeholder="Insira um número"/>
             <button onclick="subtrair()">CALCULAR</button>
-            <p>Resultado: <span id="resSub"></span></p>
+            <p>RESULTADO: <span id="resSub"></span></p>
+            <span id="SubP" class="condP">POSITIVO</span>
+            <span id="SubN" class="condN">NEGATIVO</span>
         </div>
         
         <div class="filhas">
@@ -48,7 +49,9 @@
             <label for="num6">Digite o segundo número:</label>
             <input class="inputs-style" type="number" id="num6" placeholder="Insira um número"/>
             <button onclick="divisao()">CALCULAR</button>
-            <p>Resultado: <span id="resDiv"></span></p>
+            <p>RESULTADO: <span id="resDiv"></span></p>
+            <span id="DivP" class="condP">POSITIVO</span>
+            <span id="DivN" class="condN">NEGATIVO</span>
         </div>
         
         <div class="filhas">
@@ -58,7 +61,9 @@
             <label for="num8">Digite o segundo número:</label>
             <input class="inputs-style" type="number" id="num8" placeholder="Insira um número"/>
             <button onclick="multiplicar()">CALCULAR</button>
-            <p>Resultado: <span id="resMult"></span></p>
+            <p>RESULTADO: <span id="resMult"></span></p>
+            <span id="MultP" class="condP">POSITIVO</span>
+            <span id="MultN" class="condN">NEGATIVO</span>
         </div>
 
         <div class="filhas">
@@ -70,9 +75,14 @@
             <label for="num11">Digite o terceiro número:</label>
             <input class="inputs-style" type="number" id="num11" placeholder="Insira um número"/>
             <button onclick="media()">CALCULAR</button>
-            <p>Resultado: <span id="resMed"></span></p>
-        </div>
-        
+            <p>RESULTADO: <span id="resMed"></span></p>
+            <span id="condP" class="condicionalP">APROVADO</span>
+            <span id="condN" class="condicionalN">REPROVADO</span>
+        </div> 
+    </div>
+    
+    <div class="Centralizar">
+        <button onclick="limpar()">LIMPAR NÚMEROS</button>
     </div>
 </body>
 </html>

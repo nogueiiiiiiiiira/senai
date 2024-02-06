@@ -89,4 +89,38 @@ button:hover{
 p {
     align-self: center; 
     margin-top: auto; 
+    border-bottom: 5px solid brown;
+}
+
+button{
+    align-self: center;
+    margin-top: auto;
+    margin-block-end: auto;
+}
+
+.Centralizar{
+    align-self: center;
+    margin-top: 100px; 
+    margin-left: 15px; 
+    margin-right: 15px;
+}
+
+.condicionalP{
+    display: none;
+    align-self: center;
+}
+
+.condicionalN{
+    display: none;
+    align-self: center;
+}
+
+.condP{
+    display: none;
+    align-self: center;
+}
+
+.condN{
+    display: none;
+    align-self: center;
 }
